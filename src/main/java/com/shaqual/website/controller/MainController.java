@@ -11,4 +11,9 @@ public class MainController {
     public String index(){
         return "index";
     }
+
+    @RequestMapping("introduce.html")
+    public String introduce(){
+        return "introduce";
+    }
 }
